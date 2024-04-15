@@ -1,0 +1,1066 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 0rem;
+}
+.clear {
+	clear: both;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ligne {
+	width: 130px;
+	height: 2px;
+	margin: 23px auto 29px auto;
+	background: black;
+}
+.h3 {
+	color: #b1734a;
+	text-align: center;
+	padding-top: 100px;
+}
+.h2
+{
+	text-decoration: underline;
+}
+.ligne {
+    width: 130px;
+    height: 2px;
+    margin: 23px auto 29px auto;
+    background: black;
+}
+.nomanimaux
+{
+	padding: 300px 0 0 200px;
+	color: #ffffff;
+	font-size: 60px;
+}
+/*/////////////////////////////////////////////////////////Nav/////////////////////////////////////////////////////////*/
+header {
+	width: 100%;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+}
+#burger {
+		display: none;
+}
+#navtitre {
+	width: 50px;
+	padding: 12px 17px 7px 100px;
+}
+#navlogo {
+	width: 50px;
+	padding: 12px 0 7px 0;
+}
+header nav {
+	float: right;
+	display: flex;
+}
+header nav a {
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	margin: 12px 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+#navDon {
+	background: #fe6a22;
+}
+header nav a:hover {
+	background-color: #b1734a;
+	color: black;
+	transition: 0.3s;
+}
+/*/////////////////////////////////////////////////////////deroulant/////////////////////////////////////////////////////////*/
+nav ul li ul { 
+display:none; } /* Rend le menu déroulant caché par défaut */
+li {
+list-style:none;
+padding:27px 0 15px 0;
+}
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+display:list-item;
+position:absolute;
+margin:15px 0 2px -10px;
+list-style:none;
+}
+.sousderoulant li {
+	font-weight: bold;
+	background: white;
+}
+.sousderoulant li a {
+	color: #b1734a;
+}
+/*/////////////////////////////////////////////////////////Image d'accueil/////////////////////////////////////////////////////////*/
+.imageAccueil {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/acceuil.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.imageAccueil h1 {
+	font-weight: bold;
+	font-size: 60px;
+	padding: 250px 0 75px 160px;
+	color: #ffffff;
+}
+.imageAccueil div {
+	height: 4px;
+	width: 700px;
+	background: #ffffff;
+	margin: 0 0 75px 160px;
+}
+.imageAccueil p {
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 0 0 10px 160px;
+}
+.imageAccueil a {
+	text-decoration: none;
+	padding-left:200px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fe6a22;
+}
+.imageAccueil a:hover {
+	text-decoration:underline; 
+}
+/*/////////////////////////////////////////////////////////Qui somme nous/////////////////////////////////////////////////////////*/
+.sommes {
+	padding: 100px 0 50px 0;
+	background: #EDEDED;
+}
+.sommes div {
+	width: 20%;
+}
+.sommes div h3 {
+	padding-top: 0;
+}
+.sommes div p {
+	padding: 0 5px;
+}
+.sommes div img {
+	width: 100%
+}
+/*/////////////////////////////////////////////////////////Nos Actions/////////////////////////////////////////////////////////*/
+.texteIndex {
+	text-align: center;
+}
+#imageSuivante {
+	width: 80%;
+	margin: 50px 0 50px 200px;
+}
+#nosactions div p {
+	padding: 0 5px; 
+}
+#nosactions div img {
+	display: block;
+	margin: auto;
+	padding: 20px 0 100px 0;
+	height: 100vh;
+}
+/*/////////////////////////////////////////////////////////A la Une/////////////////////////////////////////////////////////*/
+#aLaUne {
+	background: #EDEDED;
+}
+.ligneArticle {
+	width: 100%;
+	display: flex;
+	padding-bottom: 50px;
+}
+.ligneArticle div {
+	width: 50%;
+	padding: 23px 63px;
+	margin: 0 20px;
+}
+.ligneArticle div h4 {
+	text-align: center;
+}
+.ligneArticle div p {
+	text-align: center;
+	padding: 20px;
+}
+.ligneArticle div img {
+	width: 100%;
+}
+.ligneArticle div img {
+	height: 500px;
+}
+/*/////////////////////////////////////////////////////////DON/////////////////////////////////////////////////////////*/
+#imageDon {
+	background: #69523a;
+	padding-bottom: 100px;
+}
+#imageDon article  {
+	display: block;
+	margin: auto;
+	width: 300px;
+	height: 200px;
+	background-image: url(../img/zebraDon.jpg);
+	background-size: cover;
+}
+#imageDon a div {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	margin: auto;
+	width: 300px;
+	background: #fe6a22;
+	color: #ffffff; 
+}
+#imageDon a {
+	text-decoration: none;
+}
+/*/////////////////////////////////////////////////////////Image d'accueil Animaux/////////////////////////////////////////////////////////*/
+.rhino {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/rhino/rhinoaccueil.jpg);
+	background-size: cover;
+}
+.ourspolaire {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/ourspolaire/ourspolaire4.jpg);
+	background-size: cover;
+}
+.elephant {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/elephant/elephant11.jpg);
+	background-size: cover;
+}
+.panda {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/panda/panda7.jpg);
+	background-size: cover;
+}
+.tigre {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/tigre/tigre8.jpg);
+	background-size: cover;
+}
+.tortue {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/tortue/tortue5.jpg);
+	background-size: cover;
+}
+.albatros {
+	width: 100%;
+	height: 969px;
+	background-image: url(../img/albatros/albatros2.jpg);
+	background-size: cover;
+}
+/*/////////////////////////////////////////////////////////description Animaux/////////////////////////////////////////////////////////*/
+.description
+{
+	background: #ededed;
+	padding: 100px 0;
+	justify-content: space-around;
+}
+.carouseltop img {
+	max-width: 1000px; 
+}
+.definition
+{
+	margin-left: 50px;
+}
+.descriptiondiv {
+	margin: 100px 0 70px 0;
+	width: 30%;
+}
+tr.spaceUnder td {
+  padding-bottom: 1em;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 140%;
+  transform: translate(-50%, -50%);
+}
+/*/////////////////////////////////////////////////////////localisation Animaux/////////////////////////////////////////////////////////*/
+.localisation div
+{
+	margin: 100px 0 70px 0;
+	width: 20%;
+	padding: 0 2px;
+	box-sizing: border-box;
+}
+.localisation div img
+{
+	width: 800px;
+	padding: 10px;
+	padding-left: 35px;
+}
+/*/////////////////////////////////////////////////////////pourquoi en danger/////////////////////////////////////////////////////////*/
+.decalage 
+{
+	padding: 0 0 100px 40px;
+	background: #ededed;
+}
+/*/////////////////////////////////////////////////////////Formulaire de contact/////////////////////////////////////////////////////////*/
+.formbody {
+	background-image: url(../img/backgroundcontacte.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#formulairecontact {
+	padding-top: 100px;
+}
+.formTrait {
+    width: 320px;
+	height: 2px;
+    margin: 23px auto 29px auto;
+    background: #b1734a;
+}
+.h2 {
+    text-align: center;
+    color: #69523a;
+    padding: 20px;
+}
+.formcontacth3 {
+	text-align: center;
+	background: black;
+	color: #ffffff;
+	width: 50%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+.formtitre2 {
+	text-align: center;
+	background: black;
+	color: #ffffff;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+textarea {
+    resize: none;
+    height: 100px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    outline: none;
+    font-family: sans-serif;
+    padding: 20px;
+    border: outset;
+}
+.input {
+    width: 75%;
+    outline: none;
+}
+fieldset {
+    padding: 20px;
+    background: oldlace;
+    margin-bottom: 50px;  
+}
+/* EFFET SURVOL BOUTONS */
+#formContact input[type=submit]:hover, input[type=reset]:hover {
+    box-shadow: 0px 5px 5px black inset;
+    cursor: pointer;
+}
+#formContact input[type=submit]:disabled:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+}
+/* FIN STYLE BALISES */
+/* STYLE ID FORMULAIRE */
+#formIdentite input {
+    padding: 20px;
+    margin: 10px;
+}
+#formContact {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+#formContact legend {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: red;
+    font-size: 30px;
+}
+#formIdentite label {
+    display: block;
+    padding: 20px;
+}
+#formContact input[type=submit], input[type=reset] {
+    height: 70px;
+    width: 15%;    
+    display: block;
+    margin: auto;
+}
+#formBtnFlex {
+    display: flex;
+}
+#formComments {
+    padding: 30px;
+}
+#formBtnFlex  {
+    padding: 50px;
+}
+/*/////////////////////////////////////////////////////////FOOTER/////////////////////////////////////////////////////////*/
+footer {
+	background: black;
+}
+footer h3 {
+	color: #b1734a;
+}
+footer div {
+	width: 130px;
+	height: 2px;
+	margin: 23px auto 29px auto;
+	background: #ffffff;
+}
+footer h4, footer p {
+	color: #69523a;
+	text-align: center;
+}
+footer a img {
+	padding: 20px 5px 50px 5px;
+	width: 40px;
+}
+footer div {
+	background: black;
+}
+.finfooter {
+	color: #ffffff;
+	font-size: 10px;
+}
+/*/////////////////////////////////////////////////////////PAGE DON/////////////////////////////////////////////////////////////*/
+.donBody{
+	background-image: url("../img/background.jpg");
+
+}
+.test{
+	display: flex;	
+}
+.test{
+	width: 63%;
+}
+.carre1{
+	float:left ;
+	margin-left: 375px;	
+}
+.carre3{
+	float:right;
+	margin-left: 5px;   	
+}
+.carre1, .carre2, .carre3{
+	border: 2px solid black;
+	width: 380px;
+	height: 380px;
+	background-color : rgba(255,255,255,0.6);
+	margin-top: 150px; 		
+}
+.carre2{
+	width: 380px;
+	height: 485px;
+	margin-top: 150px;	
+	margin-left: 5px;  
+}
+.carre3{
+	height: 450px;
+
+}
+.encart1, .encart2, .encart3{
+	width: 380px;
+	background-color: black;
+	height: 51px;
+	text-align: center;		
+}
+.titreDon{
+	color: white;
+	padding-top: 10px;
+}
+.donUnique{
+	border: 2px solid #ff8d45;
+	padding-top: 5px;
+	text-align: center;
+	width: 350px;
+	height: 32px;
+	margin-top: 13px;
+	background-color: #fe6a22;
+	color: white;
+	margin-left: 14px;	
+}
+.donUnique a{
+	display: block;
+	margin-top: 5px;
+	text-decoration: none;
+	color: white;
+}
+.somme1 div{
+	border: 2px solid #d1d1d1;
+	width: 95px;
+	height: 45px;
+	text-align: center;
+	color: black;
+}
+.somme1 div a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin-top: 13px;
+}
+.somme2 div{
+	border: 2px solid #d1d1d1;
+	width: 95px;
+	height: 45px;
+	text-align: center;
+	color: black;
+}
+.somme2 div a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin-top: 13px;
+}
+.somme3 div{
+	
+	width: 353px;
+	height: 45px;	
+}
+.somme3 div a{
+	text-decoration: none;
+}
+.somme1, .somme2, .somme3{
+	margin-top: 22px;
+	margin-left: 44px;
+}
+.somme3{
+	margin-left: 14px;
+}
+
+#name {
+  width: 354px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #d1d1d1;
+}
+.somme1 div:hover{
+	background-color:#fe6a22; 
+	border: 2px solid #fe6a22;
+	transition: 0.2s;
+}
+.somme2 div:hover{
+	background-color:#fe6a22; 
+	border: 2px solid #fe6a22;
+	transition: 0.2s;
+}
+.civilite, .pays{
+  width: 31%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #d1d1d1;
+}
+.email, .prenom, .nom, .adresse, .cp, .ville{
+	border: 2px solid #d1d1d1;
+	height: 42px;
+}
+.email, .nom, .pays, .adresse{
+	width: 350px;
+}
+.prenom{
+	width: 228px;
+}
+.pays{
+	width: 354px;
+}
+.ville{
+	width: 167px;
+}
+.email {
+	margin-top: 16px;
+}
+.cp, .ville{
+	margin-top: 9px;
+}
+.email, .civilite, .nom, .pays, .adresse, .cp, .ville{
+	margin-left: 12px;
+}
+.champ{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.cardLogo{
+	width: 80px;
+	margin-left: 20px;
+}
+.visa, .mc{
+	height: 25px;
+	width: 45px;
+	border: 1px solid black;
+	border-radius: 5px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
+}
+.visa, .mc{
+	width: 38px;
+
+}
+.visa{
+	height: 14px;
+}
+.visa{
+	padding-top: 8px;
+	margin-left: 3px;
+	padding: 7px;
+	
+}
+.mc{
+	padding-top: 2px;
+	margin-left: 141px;
+	padding: 1px;
+	
+}
+.paiement{
+	text-align: center;
+	margin-top: 15px;
+}
+.mois, .annee{
+	height: 42px;
+	width: 150px;
+	border: 2px solid #d1d1d1;
+	margin-top: 21px;
+}
+.annee{
+	width: 139px;
+}
+.mois{
+	margin-left: 15px;
+}
+.ccv{
+	height: 40px;
+	width: 50px;
+}
+.cb{
+	text-align: center;
+}
+.valider{
+	width: 350px;
+	height: 42px;
+	background-color:#fe6a22;
+	color: white;
+	border: 2px solid #ff8d45;
+	margin-left: 15px;
+	margin-top: 40px;
+}
+.valider:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+.mc:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(0%);
+  	border: 2px solid #fe6a22;
+  	cursor: pointer;
+
+}
+.visa:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(0%);
+  	border: 2px solid #fe6a22;
+  	cursor: pointer;
+}
+.input2{
+	margin-left: 150px;
+}
+.input3{
+	margin-left: 10px;
+}
+/*/////////////////////////////////////////////////////////RESPONSIVE/////////////////////////////////////////////////////////*/
+@media (max-width: 1410px) {
+	.ligneArticle div img {
+		display: block;
+		margin: 0 auto;
+		max-width: 400px;
+		height: 200px;
+	}
+	#burger {
+		display: none;
+	}
+	/* RESPONSIVE CONTACT */
+	#formContact, .formcontacth3 {
+		width: 70%;
+	}
+	#formContact input[type=submit], input[type=reset] {
+		width: 50%;
+		margin: 20px;
+	}
+	/* FIN RESPONSIVE */
+}
+@media (max-width: 1035px) {
+	#burger {
+		display: block;
+	}
+	header {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		z-index: 9999999;
+
+	}
+	#navlogo {
+		padding: 12px 0 7px 0;
+	}
+	#burger {
+		justify-content: flex-end;
+	}
+	#navtitre {
+		padding: 12px 17px 7px 3px;
+	}
+	.mobile {
+		display: block;
+	}
+	header img {
+		width: 40px;
+	    height: 40px;
+	    margin: 7px;
+	    padding: 9px 0 0 0;
+	}
+	header nav {
+		display: none;
+	}
+	header nav a {
+		display: block;
+		text-align: center;
+		font-size: 20px;
+	}
+	.imageAccueil {
+		margin-left: 0;
+		height: 750px;
+	}
+	.imageAccueil h1 {
+		font-size: 30px;
+		padding-left: 15px;
+	}
+	.imageAccueil div {
+		height: 4px;
+		width: 200px;
+		background: #ffffff;
+		margin: 0 0 75px 15px;
+	}
+	.imageAccueil p {
+		padding-left: 15px;
+		font-size: 20px;
+	}
+	.imageAccueil a {
+		padding-left: 15px;
+		font-size: 18px;
+	}
+	.sommes {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.sommes div {
+		width: 100%;
+	}
+	.sommes div p {
+		text-align: center;
+	}
+	.sommes div img {
+		padding: 50px 0;
+		display: block;
+		margin: auto;
+		max-width: 400px;
+		height: 200px;
+	}
+	#nosactions {
+		width: 100%;
+	}
+	#nosactions div img {
+		padding: 20px 0 100px 0;
+		max-width: 400px;
+		height: 200px; 
+	}
+	.texteIndex p {
+		margin: 0 10px;
+	}
+	#aLaUne {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#aLaUne h3 {
+		width: 100%;
+	}
+	.ligneArticle {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.ligneArticle div {
+		width: 100%;
+	}
+	.ligneArticle div img {
+		display: block;
+		margin: 0 auto;
+		max-width: 400px;
+		height: 200px;
+	}
+	.albatros {
+		display: none;
+	}
+	.panda {
+		display: none;
+	}
+	.rhino {
+		display: none;
+	}
+	.tigre {
+		display: none;
+	}
+	.tortue {
+		display: none;
+	}
+	.elephant {
+		display: none;
+	}
+	.ourspolaire {
+		display: none;
+	}
+	.carre1{
+		margin-left: 0px;
+	}
+	/*RESPONSIVE ANIMAUX*/
+	.localisation div 
+	{
+    	margin: 50px 0 65px 0;
+   	 	width: 10%;
+    	padding: 0 2px;
+    	box-sizing: border-box;
+    }
+	.localisation div img
+	{
+		width: 600px;
+	}
+	.carouseltop img
+	{
+		width: 600px;
+		margin-top: 25px;
+	}
+	.decalage p
+	{
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	/* RESPONSIVE CONTACT */
+	#formContact, .formcontacth3 {
+		width: 100%;
+	}
+	#formContact input[type=submit], input[type=reset] {
+		width: 50%;
+		margin: 20px;
+	}
+	/* FIN RESPONSIVE */
+}
+@media (max-width: 450px) {
+	header {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		z-index: 9999999;
+	}
+	#navlogo {
+		padding: 12px 0 7px 0;
+	}
+	#navtitre {
+		padding: 12px 0 7px 18px;
+	}
+	.mobile {
+		display: block;
+	}
+	header img {
+		width: 40px;
+	    height: 40px;
+	    margin: 7px;
+	    padding: 9px 0 0 0;
+	}
+	header nav {
+		display: none;
+	}
+	header nav a {
+		display: block;
+		text-align: center;
+		font-size: 20px;
+	}
+	.imageAccueil {
+		margin-left: 0;
+		height: 750px;
+	}
+	.imageAccueil h1 {
+		font-size: 25px;
+		padding-left: 15px;
+	}
+	.imageAccueil div {
+		height: 4px;
+		width: 200px;
+		background: #ffffff;
+		margin: 0 0 75px 15px;
+	}
+	.imageAccueil p {
+		padding-left: 15px;
+		font-size: 16px;
+	}
+	.imageAccueil a {
+		padding-left: 15px;
+		font-size: 14px;
+	}
+	.sommes {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.sommes div {
+		width: 100%;
+	}
+	.sommes div p {
+		text-align: center;
+	}
+	.sommes div img {
+		padding: 50px 0;
+		display: block;
+		margin: auto;
+		max-width: 400px;
+		height: 200px;
+	}
+	#nosactions {
+		width: 100%;
+	}
+	#nosactions div img {
+		margin-left: 30px;
+		max-width: 100%; 
+	}
+	.texteIndex p {
+		margin: 0 10px;
+	}
+	#aLaUne {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#aLaUne h3 {
+		width: 100%;
+	}
+	.ligneArticle {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.ligneArticle div {
+		width: 100%;
+	}
+	.ligneArticle div img {
+		max-width: 100%;
+		height: 100px;
+	}
+	.decalage {
+		padding-left: 10px;
+	}
+	.localisation div {
+		margin: 0px 0 17px 0;
+	    width: 100%;
+	}
+	.carouseltop {
+		padding-top: 20px;
+	}
+	.albatros {
+		display: none;
+	}
+	.panda {
+		display: none;
+	}
+	.rhino {
+		display: none;
+	}
+	.tigre {
+		display: none;
+	}
+	.tortue {
+		display: none;
+	}
+	.elephant {
+		display: none;
+	}
+	.ourspolaire {
+		display: none;
+	}
+	.definition {
+		padding-top: 10px;
+		margin-left: 5px;
+	}
+	.test{
+		flex-wrap: wrap;
+		margin-top: 
+	}
+	.carre1{
+		margin-top: 100px;
+		
+	}
+	.carre1, .carre2, .carre3{
+		margin-left: 0px; 
+	}
+	.carre2, .carre3{
+		margin-top:13px;
+	}
+
+	/* RESPONSIVE CONTACT */
+	#formContact, .formcontacth3 {
+		width: 100%;
+	}
+	#formContact input[type=submit], input[type=reset] {
+		width: 50%;
+		margin: 20px;
+	}
+	/*RESPONSIVE ANIMAUX*/
+	.carouseltop img
+	{
+		width: 300px;
+	}
+	.decalage p
+	{
+		font-size: 15px;
+		margin-left: 10px;
+		margin-right: 20px;
+	}
+	.localisation div img
+	{
+		width: 300px;
+		padding-right: 10px;
+		padding-left: 35px;
+	}
+	.localisation div
+	{
+		margin-top: 10px;
+	}
+	.h3 div
+	{
+		padding-top: 30px;
+	}
+	.definition tr, td
+	{
+		font-size: 15px;
+	}
+	/* FIN RESPONSIVE */	
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+    <meta name="description"
+        content="Venez vous inscrire pour toujours être au courant sur les dernières informations concernant vos animaux préférés">
+    <meta name="author" content="Benoit Muguet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contactez-nous</title>
+</head>
+
+<body class="formbody">
+    <header>
+        <img id="navtitre" src="img/titre.png" alt="titre SOS Wild">
+        <img id="navlogo" src="img/logo.jpg" alt="logo">
+        <img src="img/burger.png" alt="Menu" class="mobile" id="burger">
+        <nav id="menu">
+            <a href="index.html">Accueil</a>
+            <ul>
+                <li><a href="#">Animaux</a>
+                    <ul class="sousderoulant">
+                        <li><a href="albatros.html">Albatros</a></li>
+                        <li><a href="elephant.html">Elephant</a></li>
+                        <li><a href="ourspolaire.html">Ours Polaire</a></li>
+                        <li><a href="panda.html">Panda</a></li>
+                        <li><a href="rhinoceros.html">Rhinoceros</a></li>
+                        <li><a href="tigre.html">Tigre</a></li>
+                        <li><a href="tortue.html">Tortue</a></li>
+                     </ul>
+                </li>
+            </ul>
+            <a href="formulaireContact.html">Contact</a>
+            <a id="navDon" href="Don.html">Don</a>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <div id="formulairecontact">
+    <h2 class="h2">Contactez-nous !</h2>
+    <div class="formTrait"></div>
+    <div class="formcontacth3"><h3>Informations personnelles</h3></div>
+    <form id="formContact">
+        <fieldset id="formIdentite">
+            <legend></legend>
+            <label>Nom :</label>
+            <input type="text" autofocus="autofocus" class="input">
+            <label>Prénom :</label>
+            <input type="text" required="required" class="inputReq input">
+            <label>Téléphone :</label>
+            <input type="number" class="input">
+            <label>Adresse mail :</label>
+            <input type="email" required="required" class="inputReq input">
+        </fieldset>
+        <div class="formtitre2"><h3>Message</h3></div>
+        <fieldset id="formComments">
+            <legend></legend>
+            <textarea required="required" class="inputReq input"></textarea>
+        </fieldset>
+        <div id="formBtnFlex">
+            <input type="submit" value="Envoyer" disabled>
+            <input type="reset" value="Effacer">
+        </div>
+    </form>
+    </div>
+    <footer>
+                <h3 class="h3">RESTEZ INFORMÉS</h3>
+                <div></div>
+                <h4>Suivez-nous<h4>
+                <p>sur les réseaux sociaux</p>
+                <a href="https://www.facebook.com/sos.wild.12/" target="_blank"><img src="img/fb.png" alt="logofacebook"></a>
+                <a href="https://twitter.com/soswild1" target="_blank"><img src="img/twitter.png" alt="logotwitter"></a>
+                <a href="https://www.instagram.com/sos.wild.france/?hl=fr" target="_blank"><img src="img/instagram.png" alt="logoinstagram"></a><br>
+                <a class="finfooter" href="">Mentions légales</a>
+                <a class="finfooter" href="">Confidientalité</a>
+                <a class="finfooter" href="">Politique de cookies</a>
+            </footer>
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+
+</html>
